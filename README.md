@@ -1,4 +1,4 @@
-# Make sure you have yarn and npm installed.
+<h2>NOTICE: Make sure you have yarn and npm installed and their global paths set correctly</h2>
 
 Open the command line, run <strong>yarn install</strong> in the root directory of the project. then <strong>cd</strong> in the client directory and run <strong>yarn install</strong> again.
 
