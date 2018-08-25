@@ -1,0 +1,9 @@
+form{
+    margin: 20% auto 0 auto;
+    width:250px;
+}
+
+input[type="text"] {
+    display: block;
+    margin : 15px auto;
+}
