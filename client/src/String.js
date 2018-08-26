@@ -10,15 +10,15 @@ class String extends React.Component {
             string: '',
             textLabel: ''
         };
-
+        // Bind this keyword on these methods
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
-
+    // When the string changes re-set its state
     handleChange(event) {
         this.setState({string: event.target.value});
     }
-
+    // Handle the form submission
     handleSubmit(event) {
         axios.post('/api', {
             text: this.state.string
@@ -43,7 +43,7 @@ class String extends React.Component {
                     <input type="submit" value="Submit" />
                 </form>
 
-                <label>
+                <label className={'displ'}>
                     {this.state.textLabel}
                 </label>
             </React.Fragment>

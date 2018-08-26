@@ -34,7 +34,6 @@ class Method extends React.Component {
             url: this.state.url
         })
             .then(response => {
-                console.log(response);
                 this.setState({resText: response['data']})
             }).catch(function (error) {
             console.log(error.response);
@@ -64,7 +63,7 @@ class Method extends React.Component {
                     </label>
                     <input type="submit" value="Submit" />
                 </form>
-                <label>
+                <label id={'displ'}>
                     {this.state.resText}
                 </label>
 

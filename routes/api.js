@@ -27,14 +27,16 @@ router.post('/', function(req, res, next) {
                 }).catch(function (error) {
                     console.log(error);
             });
+            console.log('Method : ' + req.body.method + '\tURL : ' + req.body.url);
         }
         else{
             // Send a POST request to the URL
             axios.post(req.body.url)
                 .then(response => {
                     // Convert response to string to be sent back to front-end
-                    let json = CircularJSON.stringify(response['data']);
-                    res.send(json);
+                    let json = JSON.stringify(response['data']);
+                    // Send stringified json into array
+                    res.send([json]);
                 }).catch(function(error) {
                 console.log(error);
             });

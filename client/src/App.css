@@ -7,3 +7,29 @@ input[type="text"] {
     display: block;
     margin : 15px auto;
 }
+
+.displ{
+    display: block;
+    margin: 1% auto 0 auto;
+    height: 100px;
+    width:250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#displ{
+    display: block;
+    margin: 1% auto 0 auto;
+    height: 250px;
+    width:250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
