@@ -1,8 +1,13 @@
 
 
-Open the command line, run <strong>yarn install</strong> in the root directory of the project. then <strong>cd</strong> in the client directory and run <strong>yarn install</strong> again.
+<ol>
+  <li><strong>yarn install</strong> in the root directory of the project</li>
+  <li><strong>yarn install</strong> in the client directory</li>
+  <li>open two command lines</li>
+  <li><strong>npm start</strong> in the bin directory, from one terminal</li>
+  <li><strong>npm start</strong> in the client directory, from the second terminal</li>
+</ol>
 
-Now open two command lines, from the first one cd into <strong>react-node-test/bin</strong> and run <strong>npm start</strong>. From the second command line navigate to <strong>react-node-test/client</strong> and run <strong>npm start</strong>, a browser window will pop up displaying the app.
+<br>
 
-
-<h3>NOTICE: Make sure you have node.js, yarn, npm installed and their global paths set correctly</h3>
+Prerequisites: <strong>Node.js</strong>, <strong>Yarn</strong>, <strong>NPM</strong> and their <strong>global paths</strong> set correctly
